@@ -26,7 +26,7 @@
         <div class="left">
             <img src="assets/sparkle.png" class="decor sparkle1" alt="">
             <img src="assets/sparkle.png" class="decor sparkle2" alt="">
-            <h2>The<br><span style="color:#AF2413;">Cozy Diner</span></h2>
+            <h2>The<br><span id="hero-accent">Cozy Diner</span></h2>
             <div class="typewriter">
                 <p>Burgers, fries, and shakes!</p>
             </div>
@@ -93,11 +93,11 @@
                 <form class="order-card">
                     <p>Quantity</p>
                     <label for="cozy-classic">The Cozy Classic:</label>
-                    <input type="number" id="cozy-classic" min="0" value="0">
+                    <input type="number" id="cozy-classic" name="cozy-classic" min="0" value="0">
                     <label for="jukebox-goldens">Jukebox Goldens:</label>
-                    <input type="number" id="jukebox-goldens" min="0" value="0">
+                    <input type="number" id="jukebox-goldens" name="jukebox-goldens" min="0" value="0">
                     <label for="rockin-shake">Rockin' Shake:</label>
-                    <input type="number" id="rockin-shake" min="0" value="0">
+                    <input type="number" id="rockin-shake" name="rockin-shake" min="0" value="0">
                     <p>Milkshake Flavor</p>
                     <div class="option">
                         <input type="radio" id="no-shake" name="shake-flavor" value="none" checked>
@@ -142,7 +142,7 @@
                         <label for="jalapenos">Jalapeños (+$0.25)</label>
                     </div>
                     <label for="requests" id="requests-label">Special Requests</label>
-                    <textarea id="requests" rows="5" placeholder="no onions, extra sauce, etc."></textarea>
+                    <textarea id="requests" name="requests" rows="5" placeholder="no onions, extra sauce, etc."></textarea>
                     <input type="submit" value="Go To Checkout">
                 </form>
             </div>
@@ -151,8 +151,8 @@
     <footer>
         <div class="footer-info">
             <p>Made with love by @<a href="https://www.codedex.io/@hailealol" target="_blank">hailealol</a> | </p>
-            <a href="https://github.com/hailealol" target="_blank"><img src="assets/github.png" alt="GitHub"></a>
-            <a href="https://www.linkedin.com/in/haileareynolds/" target="_blank"><img src="assets/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://github.com/hailealol" target="_blank" rel="noopener noreferrer"><img src="assets/github.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/haileareynolds/" target="_blank" rel="noopener noreferrer"><img src="assets/linkedin.png" alt="LinkedIn"></a>
         </div>
         <div class="red-checker-divider"></div>
     </footer>
